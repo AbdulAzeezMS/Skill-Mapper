@@ -1,0 +1,46 @@
+<html>
+    <head>
+	<title>Registration Page</title>	
+	<link rel="stylesheet" type="text/css" href="regstyle.css">	
+    </head>
+    <body>
+	<div class="registration">
+            <header>
+		<a><font face = "WildWest" size="8">SKILL MAPPER </font></a>
+		<font face = "Verdana" size="5">Registration Form</font>
+            </header>
+            <div class="registerbox">
+                <img src="register.jpg" class="register">
+		<h1>Register Here</h1>
+		<form>	
+                    <p>First Name</p>
+                    <input type="text" name="uname" required="required" placeholder="First Name">
+                    <p>Last Name</p>
+                    <input type="text" name="lname" required="required" placeholder="Last Name">
+                    <p>Email ID</p>
+                    <input type="email" name="lname" required="required" placeholder="eg:xyz12@abc.com">
+                    <p>Gender</p>
+                    <select name="cars" value="Gender">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="others">others</option>
+                    </select>
+                    <p>Date Of Birth</p>
+                    <input type="date" name="dob">
+                    <p>Address</p>
+                    <input type="text" name="address" required="required" placeholder="Permanent Address" >
+                    <p>Password</p>
+                    <input type="password" name="userpassword" required="required" placeholder="Enter Password">
+                    <p>Re-Enter Password</p>
+                    <input type="password" name="repassword" required="required" placeholder="Re-Enter Password">
+                    <p>Upload Your Resume</p></br>
+                    Select a file:</br> <input type="file" name="myFile">
+                    <input type="submit" value="Submit">
+                    <input type="submit" value="Reset">
+                    Already have a account ?
+                    <a href="index.html" class="to_login">Sign In</a>
+                </form>
+            </div>	
+	</div>	
+    </body>
+</html>
